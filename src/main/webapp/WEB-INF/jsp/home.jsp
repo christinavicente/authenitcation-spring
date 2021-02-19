@@ -6,8 +6,8 @@
 
 <body>
 	<h1>Welcome!</h1>
-	Login<form action="login.jsp">
-    	    <input type="submit" value="other feedback"/>
+	Login<form action="hello.jsp">
+    	    <input type="submit" value="go to greeting"/>
     	</form>
 
 </body>
