@@ -29,10 +29,10 @@ public class LoginController {
         return"incorrect";
     }
 
-    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String welcome(){
 
-        return"home";
+        return"hello";
     }
 
     private boolean authenticate(String username, String password){
